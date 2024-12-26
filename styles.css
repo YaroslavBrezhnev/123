@@ -1,0 +1,49 @@
+/* Селектор тега */
+header {
+    background-color: #87ceeb;
+    color: white;
+    text-align: center;
+    font-size: 24px;
+    padding: 20px;
+}
+
+/* Селектор класу */
+.profile {
+    text-align: center;
+    margin: 20px;
+}
+
+/* Селектор класу */
+.profile-pic {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+}
+
+/* Селектор ID */
+#user-name {
+    font-size: 28px;
+    font-weight: bold;
+}
+
+/* Селектор класу */
+.interest {
+    color: #2a9d8f;
+    font-size: 18px;
+    margin: 5px 0;
+    text-align: left;
+}
+
+/* Селектор класу для кнопок */
+.action-button {
+    background-color: #e76f51;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin: 10px;
+    cursor: pointer;
+}
+
+.action-button:hover {
+    background-color: #f4a261;
+}
